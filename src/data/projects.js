@@ -1,48 +1,32 @@
 // TODO Add a couple lines about each project
+// TODO Add more projects
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Development Implemetation of Digital predistortion algorithm for power amplifier linearization',
+    subtitle: 'End of engineering cycle project',
+    image: '/images/projects/dpd.png',
+    date: '2019-6-18',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    'Digital Pre-Distortion (DPD) is a technique to increase'
+    + 'linearity or compensate for non-linearity in power amplifiers.'
+    + 'Power amplifiers are critical in communication systems '
+    + 'and it is crucial to improve their efficiency and overall performance.'
+    + 'DPD is a cost-effective linearization technique which aims to provide '
+    + 'improved linearity, better efficiency, and take full advantage of power amplifiers. ',
+
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Implemetation Crest factor reduction module (CFR)',
+    subtitle: 'Work at Codintek',
+    image: '/images/projects/cfr.png',
+    date: '2020-09-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    'Crest factor reduction (CFR) reduces the output peak-to-average ratio'
+    + 'by clipping and allows additional gain on the output of CFR. You can'
+    + 'operate closer to the amplifier compression point, therefore it is'
+    + 'more efficient.',
   },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
-  },
+
 ];
 
 export default data;

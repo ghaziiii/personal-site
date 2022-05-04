@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'National Enginnering School of Tunis',
+    degree: 'M.S. Communication systems',
+    link: 'http://www.enit.rnu.tn/fr/diverses/news.php',
+    year: 2019,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'National Enginnering School of Tunis',
+    degree: 'B.S. Electrical Engineering',
+    link: 'http://www.enit.rnu.tn/fr/diverses/news.php',
+    year: 2019,
+  },
+  {
+    school: 'IMT ATLANTIQUE',
+    degree: 'PhD : Hardware implementation of fully pipelined turbo decoder',
+    link: 'https://www.imt-atlantique.fr/fr',
+    year: 2024,
   },
 ];
 
